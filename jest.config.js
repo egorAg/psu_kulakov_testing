@@ -9,4 +9,6 @@ module.exports = {
     "/dist/",
     "\\.js$"
   ],
+  collectCoverage: true,
+  coverageReporters: ["json", "lcov"]
 };
